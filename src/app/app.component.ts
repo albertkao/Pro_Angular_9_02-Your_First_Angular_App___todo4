@@ -8,7 +8,7 @@ import { TodoItem } from "./todoItem";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private list = new TodoList("Bob", [
+  private list = new TodoList("Me", [
     new TodoItem("Go for run", true),
     new TodoItem("Get flowers"),
     new TodoItem("Collect tickets"),
