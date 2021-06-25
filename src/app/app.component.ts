@@ -11,6 +11,7 @@ export class AppComponent {
   private list = new TodoList("Me", [
     new TodoItem("Go for walk", true),
     new TodoItem("Get flowers"),
+    new TodoItem("Get grocery"),
     new TodoItem("Swim"),
   ]);  
   
