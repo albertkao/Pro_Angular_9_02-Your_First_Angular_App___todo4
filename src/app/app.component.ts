@@ -9,9 +9,9 @@ import { TodoItem } from "./todoItem";
 })
 export class AppComponent {
   private list = new TodoList("Me", [
-    new TodoItem("Go for run", true),
+    new TodoItem("Go for walk", true),
     new TodoItem("Get flowers"),
-    new TodoItem("Collect tickets"),
+    new TodoItem("Swim"),
   ]);  
   
   get username(): string {
